@@ -1,6 +1,6 @@
 import { Addresses, IDProps } from "./addresses"
 
-type AccountProps = {
+export type AccountProps = {
   id: string,
   signer?: true,
   address?: string | keyof IDProps
