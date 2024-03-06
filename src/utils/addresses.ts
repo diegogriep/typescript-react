@@ -1,6 +1,6 @@
 import { Addresses } from "../types/addresses";
 
-function addresses(obj: Addresses) {}
+function addresses(obj: Addresses): void {}
 
 addresses({
   staking_program_id: "5XDdQrpNCD89LtrXDBk5qy4v1BW1zRCPyizTahpxDTcZ",
