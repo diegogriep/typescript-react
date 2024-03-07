@@ -1,4 +1,4 @@
-import { Address } from './../types/addresses';
+import { Address } from '../types/addresses';
 import { Instruction, Instructions } from "../types/instructions";
 
 function instructions(obj: Instructions): Instruction {
